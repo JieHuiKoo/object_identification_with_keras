@@ -80,7 +80,7 @@ def process_image(image_msg):
     object_class_pub = rospy.Publisher('armCamera/nearestObject_Confidence', Float32, queue_size=1)
     object_class_pub.publish(confidence)
 
-    print(object_class, confidence)
+    # print(object_class, confidence)
     
 def start_node():
     rospy.init_node('image_masking')
