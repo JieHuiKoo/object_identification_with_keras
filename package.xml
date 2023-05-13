@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>object-identification-with-keras</name>
+  <name>object_identification_with_keras</name>
   <version>0.0.0</version>
-  <description>The object-identification-with-keras package</description>
+  <description>The object_identification_with_keras package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->

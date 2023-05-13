@@ -17,7 +17,7 @@ print("OpenCV Version: " + str(cv2.__version__))
 
 image_size = (180, 180)
 rospack = rospkg.RosPack()
-cwd = rospack.get_path('object-identification-with-keras')
+cwd = rospack.get_path('object_identification_with_keras')
 model = keras.models.load_model(cwd + "/src/nodes/SavedModel")
 
 def imgmsg_to_cv2(img_msg):
